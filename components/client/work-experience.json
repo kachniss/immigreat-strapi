@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_client_work_experiences",
+  "info": {
+    "name": "Work_experience",
+    "icon": "business-time"
+  },
+  "options": {},
+  "attributes": {
+    "Employer": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "Is_current": {
+      "type": "boolean"
+    },
+    "Date_from": {
+      "type": "date"
+    },
+    "Date_to": {
+      "type": "date"
+    }
+  }
+}

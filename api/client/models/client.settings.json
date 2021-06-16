@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "Client",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "First_name": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "Middle_name": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "Last_name": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "Last_name_at_birth": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "Date_of_birth": {
+      "pluginOptions": {},
+      "type": "date"
+    },
+    "Work_experience": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {},
+      "component": "client.work-experience"
+    },
+    "Education": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {},
+      "component": "client.education"
+    },
+    "UCI": {
+      "type": "uid"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Female",
+        "Male",
+        "Other"
+      ]
+    }
+  }
+}

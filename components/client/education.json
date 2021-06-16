@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_client_educations",
+  "info": {
+    "name": "Education",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "Name_of_school": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Field_of_study": {
+      "type": "string"
+    },
+    "Is_current": {
+      "type": "boolean"
+    },
+    "Date_from": {
+      "type": "date"
+    },
+    "Date_to": {
+      "type": "date"
+    }
+  }
+}
