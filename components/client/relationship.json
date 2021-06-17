@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_client_relationships",
+  "info": {
+    "name": "Relationship",
+    "icon": "heart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Full_name": {
+      "type": "string"
+    },
+    "First_name": {
+      "type": "string"
+    },
+    "Last_name": {
+      "type": "string"
+    },
+    "Date_of_birth": {
+      "type": "date"
+    },
+    "Date_from": {
+      "type": "date"
+    },
+    "Date_to": {
+      "type": "date"
+    },
+    "Type_of_relationship": {
+      "type": "enumeration",
+      "enum": [
+        "Married",
+        "Common_law"
+      ]
+    },
+    "Middle_name": {
+      "type": "string"
+    },
+    "Relationship_client": {
+      "model": "client"
+    }
+  }
+}

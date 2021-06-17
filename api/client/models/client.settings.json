@@ -12,6 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "Full_name": {
+      "pluginOptions": {},
+      "type": "string"
+    },
     "First_name": {
       "pluginOptions": {},
       "type": "string"
@@ -44,9 +48,6 @@
       "pluginOptions": {},
       "component": "client.education"
     },
-    "UCI": {
-      "type": "uid"
-    },
     "Gender": {
       "type": "enumeration",
       "enum": [
@@ -54,6 +55,62 @@
         "Male",
         "Other"
       ]
+    },
+    "Marital_status": {
+      "type": "enumeration",
+      "enum": [
+        "Married",
+        "Widowed",
+        "Separated",
+        "Divorced",
+        "Single",
+        "Common_law"
+      ]
+    },
+    "Country_of_birth": {
+      "type": "string"
+    },
+    "Country_of_residency": {
+      "type": "string"
+    },
+    "Relationship": {
+      "type": "component",
+      "repeatable": true,
+      "component": "client.relationship"
+    },
+    "Immigration_history": {
+      "type": "component",
+      "repeatable": true,
+      "component": "client.immigration-history"
+    },
+    "Travel_document": {
+      "type": "component",
+      "repeatable": false,
+      "component": "client.travel-document"
+    },
+    "Mailing_address": {
+      "type": "json"
+    },
+    "Residential_address": {
+      "type": "json"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone_number": {
+      "type": "string"
+    },
+    "Mailing_address_text": {
+      "type": "text"
+    },
+    "Residential_address_text": {
+      "type": "text"
+    },
+    "UCI": {
+      "type": "string"
+    },
+    "Nationality": {
+      "type": "string"
     }
   }
 }

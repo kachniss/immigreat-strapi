@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_client_immigration_histories",
+  "info": {
+    "name": "Immigration_history",
+    "icon": "clipboard-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Type_of_permit": {
+      "type": "enumeration",
+      "enum": [
+        "Work",
+        "Study"
+      ]
+    },
+    "Date_issued": {
+      "type": "date"
+    },
+    "Expiry_date": {
+      "type": "date"
+    },
+    "Employer": {
+      "type": "string"
+    },
+    "Employment_location": {
+      "type": "string"
+    },
+    "Occupation": {
+      "type": "string"
+    },
+    "Institution": {
+      "type": "string"
+    },
+    "Field_of_study": {
+      "type": "string"
+    },
+    "Application_number": {
+      "type": "string"
+    }
+  }
+}
