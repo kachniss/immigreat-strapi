@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_client_travel_documents",
+  "info": {
+    "name": "Travel_document",
+    "icon": "globe-americas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "string"
+    },
+    "Date_issued": {
+      "type": "date"
+    },
+    "Expiry_date": {
+      "type": "date"
+    },
+    "Document_type": {
+      "type": "enumeration",
+      "enum": [
+        "Passport"
+      ]
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Issuing_authority": {
+      "type": "string"
+    }
+  }
+}
